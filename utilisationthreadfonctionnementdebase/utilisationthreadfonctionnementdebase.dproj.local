@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/04 12:58:17.000.196,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/06/04 12:59:15.000.101,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.fmx=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Nouveau dossier (15)\Unit1.fmx</Transaction>
+    <Transaction>2017/06/04 12:59:15.000.101,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Nouveau dossier (15)\Unit1.pas</Transaction>
+    <Transaction>2017/06/04 12:59:16.000.150,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project1.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Nouveau dossier (15)\Project1.dproj</Transaction>
+    <Transaction>2017/06/04 14:15:17.000.277,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Nouveau dossier (15)\Project1.dproj=Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utilisationthreadfonctionnementdebase\utilisationthreadfonctionnementdebase.dproj</Transaction>
+    <Transaction>2017/06/04 14:15:50.000.720,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Nouveau dossier (15)\Unit1.pas=Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utilisationthreadfonctionnementdebase\Unit1.pas</Transaction>
+    <Transaction>2017/06/04 14:15:50.000.720,C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Nouveau dossier (15)\Unit1.fmx=Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utilisationthreadfonctionnementdebase\Unit1.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pimac iOSSimulator="_iossimulator_01747B3B-7330-43D6-AF6E-8C1BCB0C8CC0"/>
+	</ActiveMobileDevice>
+</BorlandProject>
