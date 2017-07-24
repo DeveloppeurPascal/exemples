@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/07/22 12:14:24.000.856,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit3.pas</Transaction>
+    <Transaction>2017/07/22 12:15:05.000.361,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\simplifierLePassageDeParametreDeListes\Unit3.fmx=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit3.fmx</Transaction>
+    <Transaction>2017/07/22 12:15:05.000.361,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\simplifierLePassageDeParametreDeListes\Unit3.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit3.pas</Transaction>
+    <Transaction>2017/07/22 12:15:07.000.143,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\simplifierLePassageDeParametreDeListes\Project3.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project3.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pimac iOSSimulator="iPhone5"/>
+		<NoProfile Android="0123456789ABCDEF"/>
+	</ActiveMobileDevice>
+</BorlandProject>
