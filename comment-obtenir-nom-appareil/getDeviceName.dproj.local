@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/07/27 20:12:50.000.895,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/08/20 23:32:47.000.822,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/08/22 00:11:09.000.888,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/09/16 19:54:05.000.440,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/11/16 19:08:02.000.452,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/12/07 19:12:42.616,=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/12/07 19:15:18.064,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\comment-obtenir-nom-appareil\Unit1.fmx=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.fmx</Transaction>
+    <Transaction>2017/12/07 19:15:18.064,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\comment-obtenir-nom-appareil\Unit1.pas=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2017/12/07 19:15:45.783,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\comment-obtenir-nom-appareil\getDeviceName.dproj=C:\Users\PATRICK PREMARTIN\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
+    <Transaction>2017/12/07 19:16:14.454,=Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\comment-obtenir-nom-appareil\uGetDeviceName.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<Pimac iOSSimulator="iPhone5" iOSDevice32="_iosdevice_aee57b202c07c4c3d081049864d40c73cef4271e" iOSDevice64="_iosdevice_4735ab942d82a0a75d28785082e67b230f810e02"/>
+		<NoProfile Android="200804116c34781"/>
+	</ActiveMobileDevice>
+</BorlandProject>
