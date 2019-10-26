@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/09/07 20:45:57.000.803,=C:\Users\Patrick\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2019/10/26 11:44:03.248,=C:\Users\Patrick\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2019/10/26 11:47:04.819,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utiliseruneunitecommunedansunprojetvcletfmx\fmx\Unit1.fmx=C:\Users\Patrick\Documents\Embarcadero\Studio\Projets\Unit1.fmx</Transaction>
+    <Transaction>2019/10/26 11:47:04.819,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utiliseruneunitecommunedansunprojetvcletfmx\fmx\Unit1.pas=C:\Users\Patrick\Documents\Embarcadero\Studio\Projets\Unit1.pas</Transaction>
+    <Transaction>2019/10/26 11:47:20.303,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utiliseruneunitecommunedansunprojetvcletfmx\fmx\Project1.dproj=C:\Users\Patrick\Documents\Embarcadero\Studio\Projets\Project1.dproj</Transaction>
+    <Transaction>2019/10/26 11:47:37.861,=Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utiliseruneunitecommunedansunprojetvcletfmx\fmx\Unit3.pas</Transaction>
+    <Transaction>2019/10/26 11:47:53.720,Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utiliseruneunitecommunedansunprojetvcletfmx\CommonUnit.pas=Z:\OlfSoftware\sites_web\developpeur-pascal.fr\exemples\utiliseruneunitecommunedansunprojetvcletfmx\fmx\Unit3.pas</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <PiMacHighSierraIP12 iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
