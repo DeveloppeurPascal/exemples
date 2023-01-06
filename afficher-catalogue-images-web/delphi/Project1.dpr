@@ -4,7 +4,7 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   Unit1 in 'Unit1.pas' {Form1},
-  u_download in 'u_download.pas';
+  u_download in '..\..\Libraries\librairies\u_download.pas';
 
 {$R *.res}
 

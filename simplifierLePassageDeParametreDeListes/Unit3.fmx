@@ -35,7 +35,7 @@ object Form3: TForm3
     Size.Height = 436.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 2
-    Viewport.Width = 636.000000000000000000
-    Viewport.Height = 432.000000000000000000
+    Viewport.Width = 640.000000000000000000
+    Viewport.Height = 436.000000000000000000
   end
 end

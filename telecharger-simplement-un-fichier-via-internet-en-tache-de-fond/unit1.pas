@@ -30,7 +30,7 @@ uses u_download, System.IOUtils;
 procedure TForm1.Button1Click(Sender: TObject);
 begin
   Button1.Enabled := false;
-  tdownload_file.download('http://gamolf.fr/images/gamolf-500x500.psng',
+  tdownload_file.download('https://gamolf.fr/images/gamolf-500x500.png',
     tpath.Combine(tpath.GetDocumentsPath(), '__monimage.png'),
     procedure
     begin
