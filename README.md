@@ -1,20 +1,73 @@
-Regroupe les projets exemples liés au blog https://www.developpeur-pascal.fr/
+# Samples from blog [developpeur-pascal.fr](https://developpeur-pascal.fr/)
 
-Sauf mention contraire vous êtes libres de vous en inspirer pour vos développements sous Delphi.
+[Cette page en français.](LISEZMOI.md)
 
-S'il vous arrivait d'avoir des questions liées à ces sources et que la page correspondante du blog ne vous suffit pas, n'hésitez pas à prendre contact avec moi.
+Gathers the example projects linked to the blog https://developpeur-pascal.fr/
 
------
+Unless otherwise stated, you are free to use them for your own developments under Delphi, respecting the distribution license.
 
-Si vous ne connaissez pas Delphi et le langage Pascal, profitez de la version Academic (pour les étudiants, enseignants et établissements d'enseignement) ou Community Edition (gratuite pour une utilisation personnelle) disponibles chez Embarcadero (rubrique "outils gratuits").
-En entreprise vous pouvez aussi tester Delphi avec la version d'évaluation.
+If you have any questions related to these sources and the corresponding page of the blog is not enough for you, don't hesitate to [contact me](https://developpeur-pascal.fr/nous-contacter.php) or [open a discussion](https://github.com/DeveloppeurPascal/exemples/discussions).
+
+This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
+
+A lot of other project samples and features coded with Delphi are available in [this code repository](https://github.com/DeveloppeurPascal/Delphi-samples).
+
+## What is Delphi?
+
+If you are not familiar with Delphi and the Pascal language, take advantage of the Academic Edition (for students, teachers and educational institutions) or the Community Edition (free for personal use) available at Embarcadero (under the heading "free tools").
+You can also test Delphi in your company with the evaluation version.
 https://www.embarcadero.com/products/delphi
 
-Cette formation en ligne gratuite vous apprendra les bases de la programmation avec le Pascal et Delphi même si vous n'avez jamais appris à programmer :
+This free french online course will teach you the basics of programming with Pascal and Delphi even if you have never learned to program:
 https://apprendre-delphi.fr/apprendre-la-programmation-avec-delphi/
 
-Des conférences en ligne et des webinaires (points techniques sur des sujets précis) sont organisés régulièrement. Consultez [le planning de ces webinaires](https://developpeur-pascal.fr/p/_6007-webinaires.html) et regardez les [rediffusions des webinaires Delphi](https://serialstreameur.fr/webinaires-delphi.php).
+You also can check https://learndelphi.org web site for other ressources in english.
 
-Des sessions de [live coding sur Twitch](https://www.twitch.tv/patrickpremartin) ou [la chaîne YouTube Developpeur Pascal](https://www.youtube.com/channel/UCk_LmkBB90jdEdmfF77W6qQ) sont également organisées régulièrement. Pour Twitch vous pouvez consulter [le planning hebdomadaire](https://www.twitch.tv/patrickpremartin/schedule). Vous pouvez aussi vous reporter à [cet article](https://developpeur-pascal.fr/p/_600e-livestreams-de-codage-en-direct-avec-delphi.html). Pour les rediffusions de tout ça, rendez-vous simplement dans la [rubrique live coding](https://serialstreameur.fr/live-coding.php) de [Serial Streameur](https://serialstreameur.fr/) où vous trouverez de nombreuses vidéos en français à destination des développeurs de logiciels, applications mobiles, sites web et jeux vidéo.
+Online conferences and webinars (technical points on specific topics) are organised regularly.
 
-Enfin, si vous préférez la lecture à la vidéo, vous trouverez tous les livres récents publiés sur Delphi et le langage Pascal sur [Delphi Books](https://delphi-books.com)
+In French, check out [the schedule of these webinars](https://developpeur-pascal.fr/webinaires.html) and watch [Delphi webinar replays](https://serialstreameur.fr/webinaires-delphi.php).
+In English or other languages check https://www.embarcadero.com/events
+
+[Live coding sessions on Twitch](https://www.twitch.tv/patrickpremartin) or [the Pascal Developer YouTube channel](https://www.youtube.com/@DeveloppeurPascal/featured) are also organised regularly. For Twitch you can check [the weekly schedule](https://www.twitch.tv/patrickpremartin/schedule). For replays of all this, just go to the [live coding section](https://serialstreameur.fr/live-coding.php) of [Serial Streamer](https://serialstreameur.fr/) where you will find many videos in French for software developers, mobile applications, websites and video games.
+
+Finally, if you prefer reading to video, you can find all the recent books published on Delphi and the Pascal language at [Delphi Books](https://delphi-books.com).
+
+## Install
+
+To download this project you better should use "git" command but you also can download a ZIP from [its GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX).
+Pour télécharger ce projet il est recommandé de passer par "git" mais vous pouvez aussi télécharger un ZIP directement depuis GitHub.
+
+**Warning :** if the project has submodules dependencies they wont be in the ZIP file. You'll have to download them manually.
+
+## Dependencies
+
+This project depends on :
+
+* [DeveloppeurPascal/librairies](https://github.com/DeveloppeurPascal/librairies) to save in folder Libraries\librairies
+
+## How to ask a new feature, report a bug or a security issue ?
+
+If you want an answer from the project owner the best way to ask for a new feature or report a bug is to go to [the GitHub repository](https://github.com/DeveloppeurPascal/XXXXXXXXXX) and [open a new issue](https://github.com/DeveloppeurPascal/XXXXXXXXXX/issues).
+
+If you found a security issue please don't report it publicly before a patch is available. Explain the case by [sending a private message to the author](https://developpeur-pascal.fr/nous-contacter.php).
+
+You also can fork the repository and contribute by submitting pull requests if you want to help. Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
+## Dual licensing model (only for my projects, not for this code repository template)
+
+This project is distributed under [AGPL 3.0 or later](https://choosealicense.com/licenses/agpl-3.0/) license.
+
+If you want to use it or a part of it in your projects but don't want to share the sources or don't want to distribute your project under the same license you can buy the right to use it under the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) or a dedicated license ([contact the author](https://developpeur-pascal.fr/nous-contacter.php) to explain your needs).
+
+## Support the project and its author
+
+If you think this project is useful and want to support it, please make a donation to [its author](https://github.com/DeveloppeurPascal). It will help to maintain the code and binaries.
+
+You can use one of those services :
+
+* [GitHub Sponsors](https://github.com/sponsors/DeveloppeurPascal)
+* [Liberapay](https://liberapay.com/PatrickPremartin)
+* [Patreon](https://www.patreon.com/patrickpremartin)
+* [Paypal](https://www.paypal.com/paypalme/patrickpremartin)
+
+or if you speack french you can [subscribe to Zone Abo](https://zone-abo.fr/nos-abonnements.php) on a monthly or yearly basis and get a lot of resources as videos and articles.
