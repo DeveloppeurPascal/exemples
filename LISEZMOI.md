@@ -1,6 +1,6 @@
 # Exemples du blog [developpeur-pascal.fr](https://developpeur-pascal.fr/)
 
-[This page in english.](README.md)
+[This page in English.](README.md)
 
 Regroupe les projets exemples liés au blog https://developpeur-pascal.fr/
 
