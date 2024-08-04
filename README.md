@@ -28,7 +28,7 @@ Online conferences and webinars (technical points on specific topics) are organi
 In French, check out [the schedule of these webinars](https://developpeur-pascal.fr/webinaires.html) and watch [Delphi webinar replays](https://serialstreameur.fr/webinaires-delphi.php).
 In English or other languages check https://www.embarcadero.com/events
 
-[Live coding sessions on Twitch](https://www.twitch.tv/patrickpremartin) or [the Pascal Developer YouTube channel](https://www.youtube.com/@DeveloppeurPascal/featured) are also organised regularly. For Twitch you can check [the weekly schedule](https://www.twitch.tv/patrickpremartin/schedule). For replays of all this, just go to the [live coding section](https://serialstreameur.fr/live-coding.php) of [Serial Streamer](https://serialstreameur.fr/) where you will find many videos in French for software developers, mobile applications, websites and video games.
+[Live coding sessions on Twitch](https://www.twitch.tv/patrickpremartin) or [the Pascal Developpeur YouTube channel](https://www.youtube.com/@DeveloppeurPascal/featured) are also organised regularly. For Twitch you can check [the weekly schedule](https://www.twitch.tv/patrickpremartin/schedule). For replays of all this, just go to the [live coding section](https://serialstreameur.fr/live-coding.php) of [Serial Streamer](https://serialstreameur.fr/) where you will find many videos in French for software developers, mobile applications, websites and video games.
 
 Finally, if you prefer reading to video, you can find all the recent books published on Delphi and the Pascal language at [Delphi Books](https://delphi-books.com).
 
