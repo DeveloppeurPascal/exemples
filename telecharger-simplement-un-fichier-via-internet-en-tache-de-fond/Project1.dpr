@@ -16,17 +16,17 @@
 /// ***************************************************************************
 ///
 /// Author(s) :
-///      Patrick PREMARTIN
+/// Patrick PREMARTIN
 ///
 /// Site :
-///      https://developpeur-pascal.fr/
+/// https://developpeur-pascal.fr/
 ///
 /// Project site :
-///      https://github.com/DeveloppeurPascal/exemples
+/// https://github.com/DeveloppeurPascal/exemples
 ///
 /// ***************************************************************************
-/// File last update : 30/05/2024 20:10:15
-/// Signature : 262782333262873d91d552927341ead95f25a5f1
+/// File last update : 2024-09-17T10:57:20.000+02:00
+/// Signature : 745581c0bdb84201bf8749a8acfb3d18df5c3089
 /// ***************************************************************************
 /// </summary>
 
