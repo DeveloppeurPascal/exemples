@@ -36,7 +36,7 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   unit1 in 'unit1.pas' {Form1},
-  u_download in '..\Libraries\librairies\u_download.pas';
+  u_download in '..\Libraries\librairies\src\u_download.pas';
 
 {$R *.res}
 
