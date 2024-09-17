@@ -16,13 +16,13 @@
 /// ***************************************************************************
 ///
 /// Author(s) :
-///      Patrick PREMARTIN
+/// Patrick PREMARTIN
 ///
 /// Site :
-///      https://developpeur-pascal.fr/
+/// https://developpeur-pascal.fr/
 ///
 /// Project site :
-///      https://github.com/DeveloppeurPascal/exemples
+/// https://github.com/DeveloppeurPascal/exemples
 ///
 /// ***************************************************************************
 /// File last update : 30/05/2024 20:10:15
@@ -121,6 +121,7 @@ var
   fruit, trouve: TFruitsConst;
   id: Integer;
 begin
+  trouve := TFruitsConst.OrangeConst;
   fruit := TFruitsConst.BananeConst;
   id := ord(fruit);
   showmessage(id.ToString);
