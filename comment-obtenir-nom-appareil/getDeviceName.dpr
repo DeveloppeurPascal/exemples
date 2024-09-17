@@ -36,7 +36,7 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   Unit1 in 'Unit1.pas' {Form1},
-  uGetDeviceName in '..\Libraries\librairies\uGetDeviceName.pas';
+  uGetDeviceName in '..\Libraries\librairies\src\uGetDeviceName.pas';
 
 {$R *.res}
 
