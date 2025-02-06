@@ -1,0 +1,228 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2B95167A-87B8-47CD-88E4-23AC0D0D67A7}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="afficher-catalogue-images-web\delphi\ShowImagesFromAWebSite.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="comment-obtenir-nom-appareil\getDeviceName.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="jouons-un-peu-avec-les-types-enumeres-et-leurs-valeurs\PlayWithEnums.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LiezVosChampsDeSaisieAvecVosTablesSansLBSousFMX\LinkDBFieldsWithTables.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="LiveBindings-StringGrid-FDTAble-InsertOrAppend\LiveBindingsSample.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="simplifierLePassageDeParametreDeListes\UsingListsAsParameters1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="simplifierLePassageDeParametreDeListes\UsingListsAsParameters2.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="simplifierLePassageDeParametreDeListes\UsingListsAsParameters3.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="telecharger-simplement-un-fichier-via-internet-en-tache-de-fond\DownloadAFileInBackground.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="thread-et-blocage-ecran\ThreadsAndLockingScreen.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tlistview-fd-auto\TListViewFDAuto.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="tlistview-fd-manuel\TListViewFDManual.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ttreeview-dragdrop\DragAndDropInTTreeView.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="utilisationthreadfonctionnementdebase\utilisationthreadfonctionnementdebase.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="utiliseruneunitecommunedansunprojetvcletfmx\console\ShareAUnitWithAConsoleProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="utiliseruneunitecommunedansunprojetvcletfmx\fmx\ShareAUnitWithAFireMonkeyProject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="utiliseruneunitecommunedansunprojetvcletfmx\vcl\ShareAUnitWithAVCLProject.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="ShowImagesFromAWebSite">
+        <MSBuild Projects="afficher-catalogue-images-web\delphi\ShowImagesFromAWebSite.dproj"/>
+    </Target>
+    <Target Name="ShowImagesFromAWebSite:Clean">
+        <MSBuild Projects="afficher-catalogue-images-web\delphi\ShowImagesFromAWebSite.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShowImagesFromAWebSite:Make">
+        <MSBuild Projects="afficher-catalogue-images-web\delphi\ShowImagesFromAWebSite.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="getDeviceName">
+        <MSBuild Projects="comment-obtenir-nom-appareil\getDeviceName.dproj"/>
+    </Target>
+    <Target Name="getDeviceName:Clean">
+        <MSBuild Projects="comment-obtenir-nom-appareil\getDeviceName.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="getDeviceName:Make">
+        <MSBuild Projects="comment-obtenir-nom-appareil\getDeviceName.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PlayWithEnums">
+        <MSBuild Projects="jouons-un-peu-avec-les-types-enumeres-et-leurs-valeurs\PlayWithEnums.dproj"/>
+    </Target>
+    <Target Name="PlayWithEnums:Clean">
+        <MSBuild Projects="jouons-un-peu-avec-les-types-enumeres-et-leurs-valeurs\PlayWithEnums.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PlayWithEnums:Make">
+        <MSBuild Projects="jouons-un-peu-avec-les-types-enumeres-et-leurs-valeurs\PlayWithEnums.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LinkDBFieldsWithTables">
+        <MSBuild Projects="LiezVosChampsDeSaisieAvecVosTablesSansLBSousFMX\LinkDBFieldsWithTables.dproj"/>
+    </Target>
+    <Target Name="LinkDBFieldsWithTables:Clean">
+        <MSBuild Projects="LiezVosChampsDeSaisieAvecVosTablesSansLBSousFMX\LinkDBFieldsWithTables.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LinkDBFieldsWithTables:Make">
+        <MSBuild Projects="LiezVosChampsDeSaisieAvecVosTablesSansLBSousFMX\LinkDBFieldsWithTables.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="LiveBindingsSample">
+        <MSBuild Projects="LiveBindings-StringGrid-FDTAble-InsertOrAppend\LiveBindingsSample.dproj"/>
+    </Target>
+    <Target Name="LiveBindingsSample:Clean">
+        <MSBuild Projects="LiveBindings-StringGrid-FDTAble-InsertOrAppend\LiveBindingsSample.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="LiveBindingsSample:Make">
+        <MSBuild Projects="LiveBindings-StringGrid-FDTAble-InsertOrAppend\LiveBindingsSample.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UsingListsAsParameters1">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters1.dproj"/>
+    </Target>
+    <Target Name="UsingListsAsParameters1:Clean">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UsingListsAsParameters1:Make">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UsingListsAsParameters2">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters2.dproj"/>
+    </Target>
+    <Target Name="UsingListsAsParameters2:Clean">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters2.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UsingListsAsParameters2:Make">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters2.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="UsingListsAsParameters3">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters3.dproj"/>
+    </Target>
+    <Target Name="UsingListsAsParameters3:Clean">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters3.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="UsingListsAsParameters3:Make">
+        <MSBuild Projects="simplifierLePassageDeParametreDeListes\UsingListsAsParameters3.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DownloadAFileInBackground">
+        <MSBuild Projects="telecharger-simplement-un-fichier-via-internet-en-tache-de-fond\DownloadAFileInBackground.dproj"/>
+    </Target>
+    <Target Name="DownloadAFileInBackground:Clean">
+        <MSBuild Projects="telecharger-simplement-un-fichier-via-internet-en-tache-de-fond\DownloadAFileInBackground.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DownloadAFileInBackground:Make">
+        <MSBuild Projects="telecharger-simplement-un-fichier-via-internet-en-tache-de-fond\DownloadAFileInBackground.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ThreadsAndLockingScreen">
+        <MSBuild Projects="thread-et-blocage-ecran\ThreadsAndLockingScreen.dproj"/>
+    </Target>
+    <Target Name="ThreadsAndLockingScreen:Clean">
+        <MSBuild Projects="thread-et-blocage-ecran\ThreadsAndLockingScreen.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ThreadsAndLockingScreen:Make">
+        <MSBuild Projects="thread-et-blocage-ecran\ThreadsAndLockingScreen.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TListViewFDAuto">
+        <MSBuild Projects="tlistview-fd-auto\TListViewFDAuto.dproj"/>
+    </Target>
+    <Target Name="TListViewFDAuto:Clean">
+        <MSBuild Projects="tlistview-fd-auto\TListViewFDAuto.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TListViewFDAuto:Make">
+        <MSBuild Projects="tlistview-fd-auto\TListViewFDAuto.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TListViewFDManual">
+        <MSBuild Projects="tlistview-fd-manuel\TListViewFDManual.dproj"/>
+    </Target>
+    <Target Name="TListViewFDManual:Clean">
+        <MSBuild Projects="tlistview-fd-manuel\TListViewFDManual.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TListViewFDManual:Make">
+        <MSBuild Projects="tlistview-fd-manuel\TListViewFDManual.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DragAndDropInTTreeView">
+        <MSBuild Projects="ttreeview-dragdrop\DragAndDropInTTreeView.dproj"/>
+    </Target>
+    <Target Name="DragAndDropInTTreeView:Clean">
+        <MSBuild Projects="ttreeview-dragdrop\DragAndDropInTTreeView.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DragAndDropInTTreeView:Make">
+        <MSBuild Projects="ttreeview-dragdrop\DragAndDropInTTreeView.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="utilisationthreadfonctionnementdebase">
+        <MSBuild Projects="utilisationthreadfonctionnementdebase\utilisationthreadfonctionnementdebase.dproj"/>
+    </Target>
+    <Target Name="utilisationthreadfonctionnementdebase:Clean">
+        <MSBuild Projects="utilisationthreadfonctionnementdebase\utilisationthreadfonctionnementdebase.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="utilisationthreadfonctionnementdebase:Make">
+        <MSBuild Projects="utilisationthreadfonctionnementdebase\utilisationthreadfonctionnementdebase.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ShareAUnitWithAConsoleProject">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\console\ShareAUnitWithAConsoleProject.dproj"/>
+    </Target>
+    <Target Name="ShareAUnitWithAConsoleProject:Clean">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\console\ShareAUnitWithAConsoleProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShareAUnitWithAConsoleProject:Make">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\console\ShareAUnitWithAConsoleProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ShareAUnitWithAFireMonkeyProject">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\fmx\ShareAUnitWithAFireMonkeyProject.dproj"/>
+    </Target>
+    <Target Name="ShareAUnitWithAFireMonkeyProject:Clean">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\fmx\ShareAUnitWithAFireMonkeyProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShareAUnitWithAFireMonkeyProject:Make">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\fmx\ShareAUnitWithAFireMonkeyProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ShareAUnitWithAVCLProject">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\vcl\ShareAUnitWithAVCLProject.dproj"/>
+    </Target>
+    <Target Name="ShareAUnitWithAVCLProject:Clean">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\vcl\ShareAUnitWithAVCLProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ShareAUnitWithAVCLProject:Make">
+        <MSBuild Projects="utiliseruneunitecommunedansunprojetvcletfmx\vcl\ShareAUnitWithAVCLProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="ShowImagesFromAWebSite;getDeviceName;PlayWithEnums;LinkDBFieldsWithTables;LiveBindingsSample;UsingListsAsParameters1;UsingListsAsParameters2;UsingListsAsParameters3;DownloadAFileInBackground;ThreadsAndLockingScreen;TListViewFDAuto;TListViewFDManual;DragAndDropInTTreeView;utilisationthreadfonctionnementdebase;ShareAUnitWithAConsoleProject;ShareAUnitWithAFireMonkeyProject;ShareAUnitWithAVCLProject"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="ShowImagesFromAWebSite:Clean;getDeviceName:Clean;PlayWithEnums:Clean;LinkDBFieldsWithTables:Clean;LiveBindingsSample:Clean;UsingListsAsParameters1:Clean;UsingListsAsParameters2:Clean;UsingListsAsParameters3:Clean;DownloadAFileInBackground:Clean;ThreadsAndLockingScreen:Clean;TListViewFDAuto:Clean;TListViewFDManual:Clean;DragAndDropInTTreeView:Clean;utilisationthreadfonctionnementdebase:Clean;ShareAUnitWithAConsoleProject:Clean;ShareAUnitWithAFireMonkeyProject:Clean;ShareAUnitWithAVCLProject:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="ShowImagesFromAWebSite:Make;getDeviceName:Make;PlayWithEnums:Make;LinkDBFieldsWithTables:Make;LiveBindingsSample:Make;UsingListsAsParameters1:Make;UsingListsAsParameters2:Make;UsingListsAsParameters3:Make;DownloadAFileInBackground:Make;ThreadsAndLockingScreen:Make;TListViewFDAuto:Make;TListViewFDManual:Make;DragAndDropInTTreeView:Make;utilisationthreadfonctionnementdebase:Make;ShareAUnitWithAConsoleProject:Make;ShareAUnitWithAFireMonkeyProject:Make;ShareAUnitWithAVCLProject:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
