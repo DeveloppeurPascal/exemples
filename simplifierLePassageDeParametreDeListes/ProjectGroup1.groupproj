@@ -3,13 +3,13 @@
         <ProjectGuid>{7E843124-DFF7-492A-840E-2F35D4B20A7F}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="Project1.dproj">
+        <Projects Include="UsingListsAsParameters1.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Project2.dproj">
+        <Projects Include="UsingListsAsParameters2.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="Project3.dproj">
+        <Projects Include="UsingListsAsParameters3.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -20,41 +20,41 @@
             <Default.Personality/>
         </BorlandProject>
     </ProjectExtensions>
-    <Target Name="Project1">
-        <MSBuild Projects="Project1.dproj"/>
+    <Target Name="UsingListsAsParameters1">
+        <MSBuild Projects="UsingListsAsParameters1.dproj"/>
     </Target>
-    <Target Name="Project1:Clean">
-        <MSBuild Projects="Project1.dproj" Targets="Clean"/>
+    <Target Name="UsingListsAsParameters1:Clean">
+        <MSBuild Projects="UsingListsAsParameters1.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="Project1:Make">
-        <MSBuild Projects="Project1.dproj" Targets="Make"/>
+    <Target Name="UsingListsAsParameters1:Make">
+        <MSBuild Projects="UsingListsAsParameters1.dproj" Targets="Make"/>
     </Target>
-    <Target Name="Project2">
-        <MSBuild Projects="Project2.dproj"/>
+    <Target Name="UsingListsAsParameters2">
+        <MSBuild Projects="UsingListsAsParameters2.dproj"/>
     </Target>
-    <Target Name="Project2:Clean">
-        <MSBuild Projects="Project2.dproj" Targets="Clean"/>
+    <Target Name="UsingListsAsParameters2:Clean">
+        <MSBuild Projects="UsingListsAsParameters2.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="Project2:Make">
-        <MSBuild Projects="Project2.dproj" Targets="Make"/>
+    <Target Name="UsingListsAsParameters2:Make">
+        <MSBuild Projects="UsingListsAsParameters2.dproj" Targets="Make"/>
     </Target>
-    <Target Name="Project3">
-        <MSBuild Projects="Project3.dproj"/>
+    <Target Name="UsingListsAsParameters3">
+        <MSBuild Projects="UsingListsAsParameters3.dproj"/>
     </Target>
-    <Target Name="Project3:Clean">
-        <MSBuild Projects="Project3.dproj" Targets="Clean"/>
+    <Target Name="UsingListsAsParameters3:Clean">
+        <MSBuild Projects="UsingListsAsParameters3.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="Project3:Make">
-        <MSBuild Projects="Project3.dproj" Targets="Make"/>
+    <Target Name="UsingListsAsParameters3:Make">
+        <MSBuild Projects="UsingListsAsParameters3.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
-        <CallTarget Targets="Project1;Project2;Project3"/>
+        <CallTarget Targets="UsingListsAsParameters1;UsingListsAsParameters2;UsingListsAsParameters3"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Project1:Clean;Project2:Clean;Project3:Clean"/>
+        <CallTarget Targets="UsingListsAsParameters1:Clean;UsingListsAsParameters2:Clean;UsingListsAsParameters3:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Project1:Make;Project2:Make;Project3:Make"/>
+        <CallTarget Targets="UsingListsAsParameters1:Make;UsingListsAsParameters2:Make;UsingListsAsParameters3:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
