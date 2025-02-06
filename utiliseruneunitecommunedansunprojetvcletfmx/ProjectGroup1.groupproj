@@ -3,13 +3,13 @@
         <ProjectGuid>{65A4CC66-7417-43AC-92E8-5C3ECCD13DF2}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="fmx\Project1.dproj">
+        <Projects Include="console\ShareAUnitWithAConsoleProject.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="vcl\Project2.dproj">
+        <Projects Include="fmx\ShareAUnitWithAFireMonkeyProject.dproj">
             <Dependencies/>
         </Projects>
-        <Projects Include="console\Project3.dproj">
+        <Projects Include="vcl\ShareAUnitWithAVCLProject.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -20,41 +20,41 @@
             <Default.Personality/>
         </BorlandProject>
     </ProjectExtensions>
-    <Target Name="Project1">
-        <MSBuild Projects="fmx\Project1.dproj"/>
+    <Target Name="ShareAUnitWithAConsoleProject">
+        <MSBuild Projects="console\ShareAUnitWithAConsoleProject.dproj"/>
     </Target>
-    <Target Name="Project1:Clean">
-        <MSBuild Projects="fmx\Project1.dproj" Targets="Clean"/>
+    <Target Name="ShareAUnitWithAConsoleProject:Clean">
+        <MSBuild Projects="console\ShareAUnitWithAConsoleProject.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="Project1:Make">
-        <MSBuild Projects="fmx\Project1.dproj" Targets="Make"/>
+    <Target Name="ShareAUnitWithAConsoleProject:Make">
+        <MSBuild Projects="console\ShareAUnitWithAConsoleProject.dproj" Targets="Make"/>
     </Target>
-    <Target Name="Project2">
-        <MSBuild Projects="vcl\Project2.dproj"/>
+    <Target Name="ShareAUnitWithAFireMonkeyProject">
+        <MSBuild Projects="fmx\ShareAUnitWithAFireMonkeyProject.dproj"/>
     </Target>
-    <Target Name="Project2:Clean">
-        <MSBuild Projects="vcl\Project2.dproj" Targets="Clean"/>
+    <Target Name="ShareAUnitWithAFireMonkeyProject:Clean">
+        <MSBuild Projects="fmx\ShareAUnitWithAFireMonkeyProject.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="Project2:Make">
-        <MSBuild Projects="vcl\Project2.dproj" Targets="Make"/>
+    <Target Name="ShareAUnitWithAFireMonkeyProject:Make">
+        <MSBuild Projects="fmx\ShareAUnitWithAFireMonkeyProject.dproj" Targets="Make"/>
     </Target>
-    <Target Name="Project3">
-        <MSBuild Projects="console\Project3.dproj"/>
+    <Target Name="ShareAUnitWithAVCLProject">
+        <MSBuild Projects="vcl\ShareAUnitWithAVCLProject.dproj"/>
     </Target>
-    <Target Name="Project3:Clean">
-        <MSBuild Projects="console\Project3.dproj" Targets="Clean"/>
+    <Target Name="ShareAUnitWithAVCLProject:Clean">
+        <MSBuild Projects="vcl\ShareAUnitWithAVCLProject.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="Project3:Make">
-        <MSBuild Projects="console\Project3.dproj" Targets="Make"/>
+    <Target Name="ShareAUnitWithAVCLProject:Make">
+        <MSBuild Projects="vcl\ShareAUnitWithAVCLProject.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
-        <CallTarget Targets="Project1;Project2;Project3"/>
+        <CallTarget Targets="ShareAUnitWithAConsoleProject;ShareAUnitWithAFireMonkeyProject;ShareAUnitWithAVCLProject"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Project1:Clean;Project2:Clean;Project3:Clean"/>
+        <CallTarget Targets="ShareAUnitWithAConsoleProject:Clean;ShareAUnitWithAFireMonkeyProject:Clean;ShareAUnitWithAVCLProject:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Project1:Make;Project2:Make;Project3:Make"/>
+        <CallTarget Targets="ShareAUnitWithAConsoleProject:Make;ShareAUnitWithAFireMonkeyProject:Make;ShareAUnitWithAVCLProject:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
